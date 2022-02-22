@@ -52,17 +52,6 @@ class HomeScreen extends StatelessWidget{
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              margin: const EdgeInsets.symmetric(horizontal: 10),
-              width: Get.width,
-              color: tDarkColor,
-              child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    IconButton(onPressed: (){}, icon: const Icon(Icons.arrow_back_ios, color: tWhiteColor)),
-                    IconButton(onPressed: (){}, icon: const Icon(Icons.menu, color: tWhiteColor)),
-                  ]),
-            ),// Header
-            Container(
               margin: const EdgeInsets.only(left: 40, top: 20),
               child: const CircleAvatar(
                 radius: 25,
